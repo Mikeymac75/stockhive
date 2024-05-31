@@ -35,8 +35,8 @@ ticker_dict = {
 
 # Start and end date for stock data
 yf.pdr_override()
-startdate = datetime(2010,1,1)
-enddate = datetime(2019,12,31)
+startdate = datetime(2020,1,1)
+enddate = datetime(2024,12,31)
 
 with st.container():
     st.title("Data Metrics")
@@ -58,7 +58,7 @@ else:
 
 # Showing stock data date range
 st.markdown('**Date Range:**')
-st.text("1st January, 2010 - 31st December, 2019")
+st.text("1st January, 2020 - 31st December, 2024")
 
 # Describing data
 st.markdown('**Data Description:**')
